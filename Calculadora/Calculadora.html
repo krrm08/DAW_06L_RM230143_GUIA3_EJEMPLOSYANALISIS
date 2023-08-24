@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="calculadora">
+        <h2>Calculadora Básica</h2>
+        <div id="inputContainer">
+            <input type="number" id="numInput1" placeholder="Ingrese el primer número">
+            <input type="number" id="numInput2" placeholder="Ingrese el segundo número">
+        </div>
+        <div id="botonesContainer">
+            <div id="botones">
+                <button class="operatorButton" id="btnSuma">+</button>
+                <button class="operatorButton" id="btnResta">-</button>
+                <button class="operatorButton" id="btnMulti">*</button>
+                <button class="operatorButton" id="btnDivi">/</button>
+            </div>
+            <div id="otrasOperaciones">
+                <button class="operationButton" id="btnPorcen">%</button>
+                <button class="operationButton" id="btnInversa">Inversa</button>
+                <button class="operationButton" id="btnCuadrado">Cuadrado</button>
+                <button class="operationButton" id="btnRaiz">Raíz cuadrada</button>
+            </div>
+        </div>
+        <p id="resultado"></p>
+    </div>
+    <script src="js/calcu.js"></script>
+</body>
+</html>
+
